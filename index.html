@@ -1,13 +1,177 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- Benötigte Kopfdaten -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Hallo!</title>
+
+    <!-- unser CSS -->
+    <style>
+      body {
+        padding-top: 5rem;
+        background: linear-gradient(45deg, #92baac 45px, transparent 45px) 64px
+            64px,
+          linear-gradient(
+            45deg,
+            #92baac 45px,
+            transparent 45px,
+            transparent 91px,
+            #e1ebbd 91px,
+            #e1ebbd 135px,
+            transparent 135px
+          ),
+          linear-gradient(
+            -45deg,
+            #92baac 23px,
+            transparent 23px,
+            transparent 68px,
+            #92baac 68px,
+            #92baac 113px,
+            transparent 113px,
+            transparent 158px,
+            #92baac 158px
+          );
+        background-color: #e1ebbd;
+        background-size: 128px 128px;
+      }
+
+      .container {
+        background-color: white;
+      }
+
+      header,
+      footer {
+        padding: 15px;
+        background-color: #efefef;
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    </style>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
   </head>
 
   <body>
+    <div class="container">
+      <!-- Hauptinhalt. Alle Inhalte schreiben wir hier hinein. -->
+
+      <header>
+        <h1>Seitentitel</h1>
+        <!-- Webseitentitel -->
+        <h4>Hier könnte dein "Leitspruch" stehen.</h4>
+        <!-- Slogan -->
+      </header>
+
+      <section class="row">
+        <!-- Hier geben wir eine "Zeile" an. -->
+
+        <article class="col col-md-9">
+          <!-- Die erste Spalte - Breite 9 von 12 -->
+
+          <h2>Inhalt - Thema dieser Seite.</h2>
+          <p>
+            Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt
+            auf sich warten. Damit das Layout nun nicht nackt im Raume steht und
+            sich klein und leer vorkommt, pringe ich ein: der Blindtext. Genau
+            zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders
+            »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen
+            lesen.
+          </p>
+        </article>
+        <!-- Ende erste Spalte -->
+
+        <aside class="col col-md-3">
+          <!-- Die zweite Spalte. Breite 3 von 12 -->
+
+          <h2>Seitenleiste</h2>
+          <p>
+            Hier haben wir eine schöne Seitenleiste. Wir können hier ein paar
+            weiterführende Links einbinden, wenn wir möchten.
+          </p>
+          <ul>
+            <li><a href="#">Startseite</a></li>
+            <li><a href="#">Thema 1</a></li>
+            <li><a href="#">Impressum</a></li>
+            <li><a href="#">Kontakt</a></li>
+          </ul>
+        </aside>
+        <!-- Ende zweite Spalte -->
+      </section>
+      <!-- Ende der Zeile -->
+
+      <section class="row">
+        <!-- Beginn nächster Abschnitt/Reihe -->
+
+        <article class="col col-md-4">
+          <h3>Überschrift Thema 1</h3>
+          <p>
+            Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt
+            auf sich warten. Damit das Layout nun nicht nackt im Raume steht und
+            sich klein und leer vorkommt, pringe ich ein: der Blindtext. Genau
+            zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders
+            »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen
+            lesen.
+          </p>
+        </article>
+
+        <article class="col col-md-4">
+          <h3>Überschrift Thema 2</h3>
+          <p>
+            Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt
+            auf sich warten. Damit das Layout nun nicht nackt im Raume steht und
+            sich klein und leer vorkommt, pringe ich ein: der Blindtext. Genau
+            zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders
+            »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen
+            lesen.
+          </p>
+        </article>
+
+        <article class="col col-md-4">
+          <h3>Überschrift Thema 3</h3>
+          <p>
+            Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt
+            auf sich warten. Damit das Layout nun nicht nackt im Raume steht und
+            sich klein und leer vorkommt, pringe ich ein: der Blindtext. Genau
+            zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders
+            »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen
+            lesen.
+          </p>
+        </article>
+      </section>
+
+      <footer>
+        <p>Footer</p>
+      </footer>
+    </div>
+    <!-- Ende Hauptinhalt -->
+
+    <!-- Optionale JavaScript-Dateien -->
+    <!-- jQuery zuerst, dann Popper.js, dann Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
